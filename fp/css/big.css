@@ -1,0 +1,109 @@
+/* BIG Website */
+
+html {
+    background-color:black;
+}
+
+main {
+    background-color:rgb(95,95,95); 
+    width:95%;
+    margin:auto;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 1.2em;
+    color: white;
+}
+
+fullwidth {
+    width:100%;
+}
+
+h1 a {
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    color:#ccc;
+}
+h2, h3 {
+    text-decoration: none;
+    color:#ccc;
+}
+/* START Left Collumn styles */
+section {
+    float:left;
+    width:65%;
+}
+/* END Left Collumn styles */
+
+/* START Right Collumn styles */
+aside {
+    float:left;
+    width:34%;
+}
+/* END Right Collumn styles */
+
+.logo {
+    margin-right: 0.5em;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 1px solid #000;  /* width style color */
+    }
+
+div.gallery {
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin: .25%;
+}
+
+/* Start -EMBED responsively styles */
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+/* End -EMBED responsively styles */
+
+footer {
+    padding; 1em;
+    text-align: center;
+    clear: both;
+}
+
+/* mobile style*/
+
+@media all and (max-width:600px) {
+    
+    main {
+        width:100%;
+    } 
+    
+    section {
+        float:none;
+        width:100%;
+    }
+
+    aside {
+        float:none;
+        width:100%;
+    }
+    
+}
